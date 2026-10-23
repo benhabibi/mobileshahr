@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>موبایل شهر | خدمات نرم‌افزاری اپل</title>
+<meta name="description" content="ساخت اپل آیدی شخصی، انتقال اطلاعات، رفع قفل آیکلود و اشتراک هوش مصنوعی برای آیفون.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F2F5F9; --ink:#12203A; --muted:#5B6A82; --line:#D5DCE6;
+  --accent:#0B5FFF; --accent-ink:#fff; --panel:#E4EBF5;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0E1626; --ink:#EAF0FA; --muted:#9AA9C2; --line:#25324A; --accent:#4D8DFF; --accent-ink:#071126; --panel:#16223A;}
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Vazirmatn",Tahoma,sans-serif;background:var(--bg);color:var(--ink);line-height:1.9;font-size:16px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+header{padding:18px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:800;font-size:18px;text-decoration:none}
+.tel{font-size:14px;color:var(--muted);text-decoration:none;direction:ltr}
+.hero{padding:56px 0 44px}
+.hero h1{font-size:clamp(30px,8vw,46px);font-weight:800;line-height:1.5;max-width:14em}
+.hero p{margin-top:16px;color:var(--muted);max-width:30em}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:600;text-decoration:none;font-size:16px}
+.btn.main{background:var(--accent);color:var(--accent-ink)}
+.btn.alt{border:1.5px solid var(--ink)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-size:22px;font-weight:800;margin-bottom:8px}
+.sub{color:var(--muted);margin-bottom:18px}
+.svc{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:18px 0;border-bottom:1px solid var(--line);align-items:center}
+.svc:last-of-type{border-bottom:0}
+.svc h3{font-size:18px;font-weight:600}
+.svc p{grid-column:1;color:var(--muted);font-size:15px;line-height:1.8}
+.svc a{grid-row:1 / span 2;grid-column:2;font-size:14px;font-weight:600;color:var(--accent);text-decoration:none;white-space:nowrap}
+.note{background:var(--panel);border-radius:14px;padding:16px 18px;font-size:15px;color:var(--muted)}
+.steps{list-style:none;padding:0;counter-reset:s}
+.steps li{counter-increment:s;padding:10px 0 10px 0;display:flex;gap:14px}
+.steps li::before{content:counter(s);flex:none;width:28px;height:28px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:14px;font-weight:600;margin-top:3px}
+.info p{margin:4px 0}
+footer{padding:28px 0 90px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+.float{position:fixed;inset-inline:16px;bottom:max(16px,env(safe-area-inset-bottom));display:flex;justify-content:center;pointer-events:none}
+.float a{pointer-events:auto;background:var(--accent);color:var(--accent-ink);padding:12px 26px;border-radius:999px;font-weight:600;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+  <a class="brand" href="#">موبایل شهر</a>
+  <a class="tel" href="tel:+989112783689">0911 278 3689</a>
+</div></header>
+
+<main>
+<div class="wrap">
+
+<div class="hero">
+  <h1>خدمات نرم‌افزاری آیفون، بدون دردسر</h1>
+  <p>اپل آیدی، انتقال اطلاعات، قفل آیکلود و اشتراک هوش مصنوعی. پیام بده، سریع جواب می‌گیری.</p>
+  <div class="btns">
+    <a class="btn main" href="https://wa.me/989112783689">پیام در واتساپ</a>
+    <a class="btn alt" href="#services">دیدن خدمات</a>
+  </div>
+</div>
+
+<section id="services">
+  <h2>خدمات</h2>
+  <p class="sub">هر خدمت رو انتخاب کن تا مستقیم برات پیام آماده بشه.</p>
+
+  <div class="svc">
+    <h3>ساخت اپل آیدی شخصی</h3>
+    <p>اپل آیدی جدید با اطلاعات خودت، آماده استفاده برای اپ‌استور و آیکلود.</p>
+    <a href="https://wa.me/989112783689?text=سلام، می‌خوام اپل آیدی شخصی بسازم">سفارش</a>
+  </div>
+
+  <div class="svc">
+    <h3>انتقال اطلاعات</h3>
+    <p>انتقال عکس، مخاطبین و اطلاعات از گوشی قدیمی به آیفون جدید.</p>
+    <a href="https://wa.me/989112783689?text=سلام، می‌خوام اطلاعات گوشیم رو منتقل کنم">سفارش</a>
+  </div>
+
+  <div class="svc">
+    <h3>رفع قفل آیکلود</h3>
+    <p>برای دستگاه‌هایی که صاحبشون هستی و دسترسی به اکانت رو از دست دادی. مدارک مالکیت لازمه.</p>
+    <a href="https://wa.me/989112783689?text=سلام، گوشیم قفل آیکلود داره">سفارش</a>
+  </div>
+
+  <div class="svc">
+    <h3>اشتراک هوش مصنوعی</h3>
+    <p>فعال‌سازی اشتراک ابزارهای هوش مصنوعی روی اکانت خودت.</p>
+    <a href="https://wa.me/989112783689?text=سلام، اشتراک هوش مصنوعی می‌خوام">سفارش</a>
+  </div>
+</section>
+
+<section>
+  <h2>مراحل کار</h2>
+  <ol class="steps">
+    <li>در واتساپ خدمت مورد نظرت رو می‌گی.</li>
+    <li>قیمت و زمان انجام کار رو اعلام می‌کنیم.</li>
+    <li>بعد از تایید و پرداخت، کار شروع می‌شه.</li>
+    <li>نتیجه رو تحویل می‌گیری.</li>
+  </ol>
+</section>
+
+<section>
+  <div class="note">رفع قفل آیکلود فقط برای دستگاه‌های شخصی انجام می‌شه و ارائه مدرک مالکیت (مثل فاکتور یا جعبه گوشی) لازمه.</div>
+</section>
+
+<section class="info">
+  <h2>تماس</h2>
+  <p>تلفن: <a href="tel:+989112783689" dir="ltr">0911 278 3689</a></p>
+  <p>آدرس: بندرترکمن، نبش پاسداران ۱۰</p>
+  <p>ساعت کاری: صبح ۹:۳۰ تا ۱۲:۳۰ و عصر ۴:۰۰ تا ۸:۰۰</p>
+  <p>اینستاگرام: <a href="https://instagram.com/mobileshahr" dir="ltr">@mobileshahr</a></p>
+</section>
+
+</div>
+</main>
+
+<footer><div class="wrap">موبایل شهر · mobileshahr.kdns.fr</div></footer>
+
+<div class="float"><a href="https://wa.me/989112783689">پیام در واتساپ</a></div>
+
+</body>
+</html>
